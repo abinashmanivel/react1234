@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.nav-link {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.cart-holder {
+  width: 30px;
+  position: relative;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  width: 350px;
+  height: 32px;
+  outline: none;
+}
+.cart-list-length {
+  text-align: end;
+  position: absolute;
+  right: -2px;
+  z-index: 99;
+  color: #fff;
+  top: -10px;
+  background: red;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 800;
+}

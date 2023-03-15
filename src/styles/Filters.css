@@ -1,0 +1,5 @@
+.filter-holder {
+  border-right: 1px solid gray;
+  width: 20%;
+  height: calc(100vh - 140px);
+}
